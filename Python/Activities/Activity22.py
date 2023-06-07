@@ -27,6 +27,7 @@ def test_subtraction():
     assert diff == 15
 
 # Multiplication test
+@pytest.mark.activity
 def test_multiplication():
 
     # Initialize two numbers
@@ -40,6 +41,7 @@ def test_multiplication():
     assert prod == 100
 
 # Division test
+@pytest.mark.activity
 def test_division():
 
     # Initialize two numbers
